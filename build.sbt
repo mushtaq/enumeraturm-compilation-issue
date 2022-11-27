@@ -5,8 +5,9 @@ lazy val root = project
   .settings(
     name := "enumeraturm-compilation-issue",
     version := "0.1.0-SNAPSHOT",
+    resolvers += "jitpack" at "https://jitpack.io",
 
     scalaVersion := scala3Version,
 
-    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test
+    libraryDependencies += "com.github.mushtaq.enumeratum" %% "enumeratum" % "be1c8d6",
   )
