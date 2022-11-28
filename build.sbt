@@ -9,5 +9,5 @@ lazy val root = project
 
     scalaVersion := scala3Version,
 
-    libraryDependencies += "com.github.mushtaq.enumeratum" %% "enumeratum" % "be1c8d6",
+    libraryDependencies += "com.github.mushtaq.enumeratum" %% "enumeratum" % "3d87c50",
   )
